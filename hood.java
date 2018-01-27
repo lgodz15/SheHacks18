@@ -2,7 +2,7 @@ import java.util.*;
 
 /**A custom class that represents a hood object.
  * 
- * Stores all information needed for a user.
+ * Stores all information needed for a hood.
  *
  */
 
