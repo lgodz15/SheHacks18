@@ -7,7 +7,32 @@ import java.util.*;
  */
 
 public class Hood {
-    String hoodname;
-    User[] members;
-    Object[] objects;
+    String myHoodname;
+    User[] myMembers;
+    Object[] myObjects;
+
+    /**Returns the hoodname of the hood
+	 * 
+	 * @return myHoodname - the name of the hood
+	 */
+	public String getHoodname(){
+		return myHoodname;
+	}
+
+    /**Returns the members of the hood
+	 * 
+	 * @return myMembers - the list of members
+	 */
+	public User[] getMembers(){
+		return myMembers;
+	}
+
+    /**Returns the objects of the hood
+	 * 
+	 * @return myObjects - the list of objects
+	 */
+	public Object[] getObjects(){
+		return myObjects;
+	}
+
 }
