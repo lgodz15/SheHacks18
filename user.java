@@ -7,10 +7,26 @@ import java.util.*;
  */
 
 public class User {
-    String firstname;
-    String lastname;
-    String address;
-    String email;
+    String myFirstname;
+    String myLastname;
+    String myAddress;
+    String myEmail;
 
-    
+    /**Returns the firstname of the user
+	 * 
+	 * @return myFirstname - the first name of the User
+	 */
+	public String getFirstname(){
+		return myFirstname;
+	}
+
+    /**Returns the lastname of the user
+	 * 
+	 * @return myLastname - the first name of the User
+	 */
+	public String getLastname(){
+		return myLastname;
+	}
+
+ 
 }
