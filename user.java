@@ -28,5 +28,20 @@ public class User {
 		return myLastname;
 	}
 
+    /**Returns the address of the user
+	 * 
+	 * @return myAddress - the first name of the User
+	 */
+	public String getAddress(){
+		return myAddress;
+	}
+
+        /**Returns the firstname of the user
+	 * 
+	 * @return myFirstname - the first name of the User
+	 */
+	public String getEmail(){
+		return myEmail;
+	}
  
 }
